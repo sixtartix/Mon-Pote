@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Pote - Découvrez de nouveaux profils</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo animate__animated animate__bounceIn">Mon Pote</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="decouverte.html">Découverte</a></li>
+                    <li><a href="messagerie.html">Messagerie</a></li>
+                    <li><a href="retrouvailles.html">Retrouvailles</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="connexion.html" class="btn btn-login">Se connecter</a>
+                <div class="menu-icon">☰</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero animate__animated animate__fadeIn">
+            <h1>Découvrez de nouveaux profils</h1>
+            <p>Explorez notre communauté et trouvez de nouvelles connexions passionnantes !</p>
+        </section>
+
+        <section class="discovery-options animate__animated animate__fadeInUp">
+            <h2>Options de découverte</h2>
+            <div class="option-buttons">
+                <button class="btn">Par intérêts</button>
+                <button class="btn">Par localisation</button>
+                <button class="btn">Aléatoire</button>
+            </div>
+        </section>
+
+        <section class="profiles">
+            <h2>Profils suggérés</h2>
+            <div id="profiles-container" class="profiles-grid">
+                <!-- Les profils seront ajoutés dynamiquement ici par JavaScript -->
+            </div>
+        </section>
+
+        <section class="discovery-tips animate__animated animate__fadeInUp">
+            <h2>Conseils pour une découverte réussie</h2>
+            <div class="tips-container">
+                <div class="tip">
+                    <img src="/api/placeholder/100/100" alt="Complétez votre profil">
+                    <h3>Complétez votre profil</h3>
+                    <p>Un profil complet augmente vos chances de trouver des connexions pertinentes.</p>
+                </div>
+                <div class="tip">
+                    <img src="/api/placeholder/100/100" alt="Soyez ouvert">
+                    <h3>Soyez ouvert</h3>
+                    <p>N'hésitez pas à explorer des profils variés, vous pourriez être surpris !</p>
+                </div>
+                <div class="tip">
+                    <img src="/api/placeholder/100/100" alt="Engagez la conversation">
+                    <h3>Engagez la conversation</h3>
+                    <p>Une fois que vous avez trouvé un profil intéressant, lancez-vous et envoyez un message.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#">Nous rejoindre</a>
+                <a href="#">Nous contacter</a>
+                <a href="#">Discord</a>
+                <a href="#">TikTok</a>
+                <a href="#">Conditions d'utilisation</a>
+            </nav>
+            <div class="social-icons">
+                
+            </div>
+            <p class="copyright">© 2024 Mon Pote. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

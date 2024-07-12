@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Pote - Messagerie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo animate__animated animate__bounceIn">Mon Pote</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="decouverte.html">Découverte</a></li>
+                    <li><a href="messagerie.html">Messagerie</a></li>
+                    <li><a href="retrouvailles.html">Retrouvailles</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="connexion.html" class="btn btn-login">Se connecter</a>
+                <div class="menu-icon">☰</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero animate__animated animate__fadeIn">
+            <h1>Messagerie</h1>
+            <p>Restez en contact avec vos amis retrouvés grâce à notre messagerie sécurisée !</p>
+        </section>
+
+        <section class="messaging-container animate__animated animate__fadeInUp">
+            <div class="contacts-list">
+                <h2>Contacts</h2>
+                <ul id="contacts">
+                    <!-- Les contacts seront ajoutés dynamiquement ici par JavaScript -->
+                </ul>
+            </div>
+            <div class="chat-area">
+                <div id="chat-window">
+                    <div id="messages">
+                        <!-- Les messages seront ajoutés dynamiquement ici par JavaScript -->
+                    </div>
+                    <div class="message-input">
+                        <input type="text" placeholder="Tapez votre message...">
+                        <button class="btn">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="messaging-features animate__animated animate__fadeInUp">
+            <h2>Fonctionnalités de messagerie</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <img src="/api/placeholder/100/100" alt="Chiffrement de bout en bout">
+                    <h3>Chiffrement de bout en bout</h3>
+                    <p>Vos messages sont sécurisés et privés.</p>
+                </div>
+                <div class="feature">
+                    <img src="/api/placeholder/100/100" alt="Partage de médias">
+                    <h3>Partage de médias</h3>
+                    <p>Envoyez facilement des photos et des vidéos.</p>
+                </div>
+                <div class="feature">
+                    <img src="/api/placeholder/100/100" alt="Appels vidéo">
+                    <h3>Appels vidéo</h3>
+                    <p>Passez des appels vidéo avec vos amis.</p>
+                </div>
+                <div class="feature">
+                    <img src="/api/placeholder/100/100" alt="Groupes de discussion">
+                    <h3>Groupes de discussion</h3>
+                    <p>Créez des groupes pour vos retrouvailles.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#">Nous rejoindre</a>
+                <a href="#">Nous contacter</a>
+                <a href="#">Discord</a>
+                <a href="#">TikTok</a>
+                <a href="#">Conditions d'utilisation</a>
+            </nav>
+            <div class="social-icons">
+                
+            </div>
+            <p class="copyright">© 2024 Mon Pote. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

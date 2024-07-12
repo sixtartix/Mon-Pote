@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Pote - Connexion ou Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo animate__animated animate__bounceIn">Mon Pote</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="decouverte.html">Découverte</a></li>
+                    <li><a href="messagerie.html">Messagerie</a></li>
+                    <li><a href="retrouvailles.html">Retrouvailles</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="connexion.html" class="btn btn-login">Se connecter</a>
+                <div class="menu-icon">☰</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="auth-page">
+        <div class="auth-container animate__animated animate__fadeIn">
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">Connexion</button>
+                <button class="auth-tab" data-tab="register">Inscription</button>
+            </div>
+            <div class="auth-form-container">
+                <form id="login-form" class="auth-form active">
+                    <h2>Connexion</h2>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Mot de passe" required>
+                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                    <a href="#" class="forgot-password">Mot de passe oublié ?</a>
+                </form>
+                <form id="register-form" class="auth-form">
+                    <h2>Inscription</h2>
+                    <input type="text" placeholder="Nom complet" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Mot de passe" required>
+                    <input type="password" placeholder="Confirmer le mot de passe" required>
+                    <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#">Nous rejoindre</a>
+                <a href="#">Nous contacter</a>
+                <a href="#">Discord</a>
+                <a href="#">TikTok</a>
+                <a href="#">Conditions d'utilisation</a>
+            </nav>
+            <div class="social-icons">
+                
+            </div>
+            <p class="copyright">© 2024 Mon Pote. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
